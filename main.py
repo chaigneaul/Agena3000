@@ -4,7 +4,7 @@ S = 0 # Variable qui correspond à la somme
 cle = 0
 reste = 0
 n = 0
-chaine = int(input ("Rentrez la suite de chiffre du code EAN hormis la clé "))
+chaine = input ("Rentrez la suite de chiffre du code EAN hormis la clé ")
 chaine = chaine.replace(' ', "") # Permet de supprimer les espaces dans la variable chaine au cas où l'utilisateur en met
 
 while n < len(chaine): # boucle while qui permet que tous les chiffres de la variable chaine s'insère dans le tableau liste
