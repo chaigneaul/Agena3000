@@ -1,4 +1,4 @@
-#On commence par initialiser toutes les variables utiles
+#On initialise toutes les variables utiles
 liste = []
 S = 0
 cle = 0
